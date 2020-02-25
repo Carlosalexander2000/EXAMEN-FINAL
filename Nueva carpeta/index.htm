@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="21.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="21.jpeg" />
+    <title>JUEGO 21</title>
+</head>
+
+<body class="body">
+    <div class="juego">
+        
+        <div class="puntos">
+    <div id="cartaI" class="carta">
+
+    </div>
+    <div id="cartaD" class="carta">
+
+    </div>
+    <div id="pedido" class="carta">
+    </div>
+    </div>
+
+<div class="cuerpo-21">
+    <h2 id="mensaje" class="jugador" ></h2>
+    <div id="mesclar" class="opciones">
+        <button type="button" onclick="fabrica.mezclar()">JUGAR</button>
+    </div>
+    <div id="peir" class="opciones">
+        <button type="button" onclick="fabrica.pedido()">DAME UNA</button>
+    </div>
+    <div id="validar" class="opciones">
+        <button type="button" onclick="fabrica.valor()">ME QUEDO</button>
+    </div>
+</div>
+</div>
+</body>
+<script src="21.js"></script>
+
+
+</html>

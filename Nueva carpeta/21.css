@@ -1,0 +1,56 @@
+.body{
+    background-image: url("21.jpeg");
+}
+
+.juego
+{
+    width: 720px;
+    border: solid 1px #ddd;
+    margin: 0 auto;
+   background: #9619b6;
+border: solid 10px;
+text-align:center;
+min-height:430px;
+}
+
+.juego .cuerpo-21
+{
+padding: 20px;
+}
+
+.juego .opciones
+{
+text-align:center;
+}
+.juego .carta{
+    width: 60px;
+    height: 90px;
+    padding: 10px;
+    border: solid 1px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 10pt;
+    text-align: center;
+    margin: 3px;
+    border:solid 3px;
+}
+
+.jugador{
+    width: 40%;
+    border: solid 5px #f5f5f5;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    margin:1%;
+    vertical-align: top;
+    background:#f5f5f5;
+}
+
+
+.puntos{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 10px;
+}
